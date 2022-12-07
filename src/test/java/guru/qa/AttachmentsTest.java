@@ -25,8 +25,6 @@ public class AttachmentsTest {
             attachment("Source", webdriver().driver().source());
         });
 
-
-
     }
     @Test
     public void testAnnotatedAttachmentStep() {

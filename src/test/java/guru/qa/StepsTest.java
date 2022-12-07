@@ -37,7 +37,6 @@ public class StepsTest {
         step("Проверяем наличие Issue с номером " + ISSUE, () -> {
             $(withText("#" + ISSUE)).should(Condition.exist);
         });
-
     }
     @Test
     public void testAnnotatedStep() {

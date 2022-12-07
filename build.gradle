@@ -2,7 +2,6 @@ plugins {
     id 'java'
     id 'io.qameta.allure' version '2.10.0'
 }
-
 group 'guru.qa'
 version '1.0-SNAPSHOT'
 
