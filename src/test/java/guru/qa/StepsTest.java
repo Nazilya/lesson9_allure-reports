@@ -35,7 +35,7 @@ public class StepsTest {
             $("#issues-tab").click();
         });
         step("Проверяем наличие Issue с номером " + ISSUE, () -> {
-            $(withText("#" + ISSUE)).should(Condition.exist);
+            $(withText("#" + ISSUE)).should(Condition.visible);
         });
     }
     @Test
